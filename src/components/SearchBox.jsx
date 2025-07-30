@@ -22,6 +22,7 @@ function SearchBox() {
       }
 
       let result = {
+        city: city,
         temp: kelvinToCelsius(data.main.temp),
         temp_min: kelvinToCelsius(data.main.temp_min),
         temp_max: kelvinToCelsius(data.main.temp_max),
